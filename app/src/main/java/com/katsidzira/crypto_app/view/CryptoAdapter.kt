@@ -9,7 +9,7 @@ import com.katsidzira.crypto_app.R
 import com.katsidzira.crypto_app.model.Crypto
 import kotlinx.android.synthetic.main.crypto_item_view.view.*
 
-class CryptoAdapter (val cryptoList: ArrayList<Crypto>, val listener: Listener) :
+class CryptoAdapter(val cryptoList: List<Crypto>, val listener: Listener) :
     RecyclerView.Adapter<CryptoAdapter.ViewHolder>() {
     val colors : Array<String> = arrayOf("#7E57C2", "#42A5F5", "#26C6DA", "#66BB6A", "#FFEE58", "#FF7043" , "#EC407A" , "#d32f2f")
 
